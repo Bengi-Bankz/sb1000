@@ -1,0 +1,52 @@
+.controls-card {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+}
+
+.info {
+    font-size: 16px;
+    color: #111;
+    text-shadow: 0 0 2px white;
+}
+
+.spin-button,
+.buy-button {
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.spin-button {
+    background: linear-gradient(145deg, #00f0ff, #0050ff);
+}
+
+.buy-button {
+    background: linear-gradient(145deg, #ff00cc, #ffcc00);
+}
+
+.spin-button:disabled,
+.buy-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+}
