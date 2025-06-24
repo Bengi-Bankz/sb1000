@@ -1,7 +1,7 @@
 .symbol-tile {
     width: 80px;
     height: 80px;
-    background: white;
+    background: rgba(31, 159, 163, 0.082);
     border-radius: 18px;
     border: 3px solid #fff6;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);

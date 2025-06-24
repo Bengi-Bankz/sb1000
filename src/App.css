@@ -6,37 +6,6 @@
   min-height: 100vh;
 }
 
-.slot-grid {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-}
-
-.slot-column {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.symbol-tile {
-  width: 60px;
-  height: 60px;
-  background-color: white;
-  border: 2px solid #aaa;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-.controls {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
 
 .app {
   font-family: 'Comic Sans MS', sans-serif;
@@ -50,13 +19,7 @@
   text-align: center;
 }
 
-.symbol-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  mix-blend-mode: multiply;
-  /* makes white less visible */
-}
+
 
 body,
 html,
@@ -75,7 +38,7 @@ html,
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 1px;
   overflow: hidden;
 }
 
@@ -89,23 +52,18 @@ html,
 .slot-column {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: .0px;
 }
 
 .symbol-tile {
-  width: 72px;
-  height: 72px;
+  width: 105px;
+  height: 85px;
   border-radius: 12px;
-  background: white;
-  overflow: hidden;
+  background: #ffffff00;
+  overflow: display;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: drop-in 0.4s ease-out;
-}
 
-.symbol-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
